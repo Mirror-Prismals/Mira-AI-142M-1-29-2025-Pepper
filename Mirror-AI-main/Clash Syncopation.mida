@@ -1,0 +1,5 @@
+Clash# *. . ! . . . ! .*~*. . C4 . . . C4 .*
+Assert.' *Clash ^*~> Sync*
+Exception:-: *F4 . C4 . . . C4 .*
+|| Uses Clash# to compare two sequences. asserts that they sync up. if they dont sync up, excpetion is called. since they do sync up, excpetion is not called. here. since we use Clash#, we dont need to use audicle. 
+|| the key takeaway is that we are asserting the sync as we define it, we are not asserting an abstract idea of syncopation |>

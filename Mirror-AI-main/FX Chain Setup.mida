@@ -1,0 +1,5 @@
+Chain: *Verb; Echo; EQ*
+Arguments; *Size; Time, Feedback; LowCut, HighCut*
+Parameters.' *0.7; 0.25s, 0.5; 80Hz, 12kHz*
+Audicle; | *C4~E4~G4* | *G4~B4~D5* |
+|| This is kind of a lazy way to do it. its pretty each to read though you think you get it?

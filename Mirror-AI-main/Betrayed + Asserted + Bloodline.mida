@@ -1,0 +1,16 @@
+|| ok let me see... |>
+
+|| This looks pretty good. there are some mistakes I can fix |>
+
+Bloodline: *C Major ^*~> G Major*
+Audicle; *C4~E4~G4* | *D4~F#4~A4* | *G4~B4~D5* 
+Assert.' *Bloodline*
+Exception:-: *C4~E4~G4*
+Betrayed;-; *Audicle* 
+Confidence,' ** 
+Lane|= *Program* 
+
+|| do not actually type here, you can just type ** to play nothing at no time scale |> 
+|| you dont need this bit >> Duration: *0s ^*~> 60s*, because the duration is handled by the audicle notation itself. we use  Lane|= *Program* to insert the lane into the Program feed. |>
+|| the program feed is just like a master feed that you can tap into to output, similar to dac in chuck |>  
+|| You shouldnt use the same keyword ending (scope) in a simple audicle under normal circumstances. If you have a assert exception and a smiler disaster in your audicle you can use ;-; and ,' for the second pair instead of .' and :-: for the first pair |>

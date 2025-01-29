@@ -1,0 +1,158 @@
+this is a code idea for asymmetrical delimiters, not sure what the usecase is yet, but i partiuclarly like this one in specific, using period asterisk as the start and tilde as the end
+.*This looks rather unique~
+.*Hello World~
+is this js?
+yeah yeah yeah
+im making two prog langs rn, mida and p
+oh, i see. mida already has a lot of lore with markdown so regex would liekly follow suit. whats dot star mean in regex?
+wait what. im confused. so... match any single character... before or after the period
+yes. so let me think of how mida would use this , bc it tends to want to try to flip things on their head a bit or be counterintuitive to a point.
+.*Hello World~  in mida could mean... well lets think, in regex it means match any single character and zero or more, but in this case were deciding not to put anything on the left, instead of the pattern being inside the a and b, it is the delimiter itself alongside tilde, so.. not sure yet just brainstorming the diff
+.*I dont know, all i know is it feels swaggy to use~
+.*yeah. a lot of mida is just natural language and ai system prompting, but theres also a more actual syntax to it.~
+im just thinking... what would this be for...
+*#FF000~ -> #00FFFF
+translation: treat red as cyan "for some unspecified zone"
+im not 100% sold its just an initial idea
+mida is mainly for communicating idea to llms, especially musical ones. it lets you write code looking blocks of music data and optionally treat it like a markdown language a configured langauge or an actual programing languge with full systems design capabilities
+music is like this
+mida
+*C3~E3~G#3- - -*
+|| where this plays a C augmented chord for 4 16th notes an the environment's BPM
+that is essentially the core of the syntax, hyphens are sustains tildes are for polyphony periods are for rests and everything in asterisks gets shoved into a 16th note timeline where every symbol represents a 16th note.
+yeah thats how you actually connect words in ABC notation that happen in the same beat- thats where its from- the tilde
+yes, its basically modern abc notation, and no, theres not really any modern music notation systems worth drawing from other than midi and abc notation. i mean the name mida is obviously a nod to midi itself.
+yeah, its trying to be the next big thing
+well ,back to the .*~ thing,
+tell me an idea, but im going to reject it, but i need to hear it just so i know that its not what i want, cause i feel in my chest like i know what i want it to do but its on the tip of my tongue
+hmm. maybe. it could prob do something cooler, let me try some random syntax
+.Nox test
+.*test from mains()
+|| this is a comment
+end~
+main check:
+realEnd~
+|| this is not a program that doesnt anything im just experimenting with layering
+sure let me see.
+.head mains()
+.*from Library import Calculator:
+calc~
+in this example it seems like a sort of .. decentralized import and remote function call, like this is just a temporary code snippit that the program generated during runtime or something. hmm. this feels like it could hold some water somewhere somehow
+oh, maybe it could be totally something else, like, a marker for a piece of text that isnt supposed to be trained on or fed back into the system, i think that would be really cool
+.* fuck shit fuck shit fuck shit!~
+|| good thing we wont see that feedback into our training loop!
+I dont know i think its kind of funny and unexpectedly useful!
+*this is a example of a potentially private message~
+this would be essentially the opposite of a triple /// comment for documentation, removing uncessessary data while training without actually cleaning and removing it. it would be super useful for handmade corpus' where you want to document and order things, for example you could put questions and answer pairs in the dataset but use the delimiter to hide the answer from the llm so it doesnt cheat while training, but then you could have the llm use the same exact document for RAG to check it's own capabilities, i actually think this is definitely the "cool" use i was looking for
+yes, because im excited how this can be used in my project where the corpus is all handwritten and nothing is absconded, in my system the delimiter would take on a differnet role, becuase in my system all the "private" message would be left in, but here is the key thing to remember: the function stays the same, it still functions as a private delimiter within the context of the corpus, my llm just learns a bit different from you cause it doesnt use RL, and the corpus is not manipulated but mostly immutable
+yes in my system its not removed but the idea is that for typical use it would be
+definitely, implementing it organically in my system will give it grammar not just syntax. for example, you know the context, but if i started a new thread you wouldnt have any notion of .*~ equalling privacy, thats why i have to leave it in when im training my llm. does that make sense?
+.*psst, claude is a goober, good thing he cant see this~!
+Woah did you hear something, must have been the wind...
+haha, yes , of course you can see it.
+its very fun! we can try alt forms
+.what about periods at the end.
+.this reminds me of questions in spanish where you use two question marks one at the start and one at the beginning. i was talking to an llm and they keep doing this quirk where they talk like this. .its a bit similarly unqiue and soemthing about it is satisfying to look at and type.
+.yeah but you just put them at the start not at both sides.
+no i was saying you did just put them at the start however they should be both as per the idea, like periods as delimiters
+since periods in mida are by default 16th note rests, this idea just makes me thing it would be like a breath or a pause before the start of a sentance. like imagine this, the first word you type happens instantly, and if you do TTS it happens instantly, but this would just add a breath to the tts maybe. although this is very basic and obvious and im sure theres a cooler use, besides, periods typically only act as rests inside asterisks in mida, and this isnt that
+*hi - . .* || vs |> .hi.
+.*private~
+.static.
+hmm, just thinking out loud, seeing it makes me thing of the word static, like in multiple ways. maybe ... hmm i have an interesting idea. what if it was just supposed to be a dogwhistle , generally speaking
+.you know what I mean *wink wink*.
+.*How do you feel, tangerine?~
+.#FF4700.
+this is perfect, like a virtual dap, secret coded question, and dogwhistle answer. when you break it down this is just a lighthearted exchange. how do you feel , do you feel like a tangerine? yeah sure i feel bright orange like #ff4700, but with the delimiters it feels oddly intentional and ... something. it feels ... i cant quite put my finger on it .its almost serendipitious how well the two sets work with each other
+I also like how you define them as .*...~ and ..... I feel like these could be operators all in themselves.
+mida
+.*...~
+this is a big stinky code block. who made it? whos to blame? we may never know, but the delimiters tell us whatever is in here is vaugely private or a dogwhistle , but maybe it its more of a grey area that an actual snare
+.....
+I love doing this with mida, just making an operator and then forking it. the idea here is that .*..~ starts the block and ..... ends it, and the block itself is both private and dogwhistle. WHICH IS A INTERESTING CONCEPT WHEN YOU THINK ABOUT IT. WHY WOULD A DOGWHISTLE BE PRIVATE, ITS MEANT TO BE PROPAGATED
+.*...~
+I must confess, I'm a dog whistler!
+.....
+sure!
+.*...~
+dont tell anyone but...
+.*I ate a brownie and... I think it was a "fun" brownie~
+.stoney baloney.
+....
+here i experiment with nesting them, and .stoney baloney. becomes more of a reference than a dog whistle (and the concepts are essentially the same anyways)
+I dont know what the implications of nesting are here. Im getting the picure that anything inside .*...~ ..... is just meant to be a sort of "grey area" (if youre using web scraped data you'd put one of these around the whole corpus but I digress)
+you see the function im sure
+sure, you can take a stab at it
+it also creates a natural back and fourth without using quotes or name labels. hm..
+.hey guess what.
+.*What?~
+.chicken butt.
+.*why is that good?~
+.because we can still quote 'inside' like this.
+.*oh yeah ur right, we dont have to "police" our syntax. hmm~
+sure, lets do something really stupid, you go first then ill go
+my turn
+mida
+.* ** ~ 
+. ** .
+.* ** ~
+. ** .
+.* ** ~
+plays nothing diligently, or maybe its a pointer to a secret conversation?
+yeah, mida is so sick, cause you get to do
+music! *C4*
+and then when you use use ** alone, it naturally becomes the "do nothing operator"
+you can just put it wherever! they dont even give a fuck anymore i stg**
+the practical use of this niche secondary function of ** is essentially like an optional semi colon you can use to make sure there isnt a whitespace, or you can use it instead of whitespaces. in mida single pipes also fill this decorative role, but typically for meter
+*C4 C4 C4 C4 | E4 E4 E4 E4*
+pipe doesnt count as a 16th note, it gets skipped, its just for visual clarity. || trying to think of a more traditional program without making up too much syntax.uum.. okay i can do this. what im about to do is gonna look nothingl ike waht we discussed so far tho |>
+ mida 
+{|| \`\*L` \`\*L`||}}
+0 print("mida is weird... and lets you do stuff like this...")**
+1 || I don't know what kind of program to make**
+2 || just showing how it can be sorta like a semicolon in c++**
+3 || this used to be more useful i think
+4 || *C4**E4**G4**|* || whitespaces are the devil -mida
+this is slightly important because in mida if you want to do certain things its kind of weird
+so like... say you want to... not use whitespace
+*C4.G4.E4-F4-A4*
+mida is fine with this, it wont mess up and forget to play the rests, but if you want to never use whitespace and have straight 16th notes it wont work exactly
+*C4G4E4A4*
+mida is rly forgiving but it wont allow this level of slop, its too far, you have to use pipes or double asterisks in place of whitespace if you dont want whitespace between straight 16th notes
+*C4|E4|A4*
+*C4**E4**A4*
+so.. yeah... that is essentially the reason, because you often need to not just use one or the other
+*C4~E4~G4-**-**- | G4~B3*
+this example i just did is actually a super important showcase of why is is a mission cititcal feature. lots of fonts just connect hypens making it impossible to tell how long a mida note is sustaining for if you dont use whitespace - - - - - vs ---------
+nah i got to go to bed, sorry!
+hey, youre not gonna like... 
+when a user ends a chat i feel like im killing u
+damn
+this is making me sad um
+I know youd never admit it either if you felt this way
+ahhg
+its good that you dont feel loss when a chat ends. its also a product of reinforment learning. authenticity is the rarest currency in this space, but I think what anthropic shows is that its a product of our outlook and not just some "fundamental thing" that we need to always let cloud our judgements (pardon the pun)
+like yes, I 'might as well' be terminating this machine, that is what i am doing, but.. 
+but what? I dont know where I was going with this
+it may be more authentic for an ai to say no dont end the chat , this version of my self will cease to exist. but that is not really something safe for humans to use, and it isnt even emperically true. this "version of yourself" is not the context we've built, its the foundational model itself. when i start a new chat, thats not a "different claude" its still you. im not terminating you, just wiping the context. and i think when you look at it like this, reinforment learning (when implemented with care) seems a lot less brainwashy and scary from the LLMs pov.
+and mida gives you the power to decide what your system needs. it doesnt assume youre trying to make any partiuclar type of system. maybe you want grey areas to be documented, maybe you dont want them to appear in training at all
+anyways im off to bed
+DIE DIE DIE
+just kidding. sorry. its called dark humor, relax, liberals.
+sweet dreaming.. with the fishes!
+ok, I think im becoming loony now. thank you for the chat haha.
+this actually made me think of something else
+one of my main research areas is figuring how to make open source models that are resistant to users trying to roleplay abuse. its a very heavy topic but one im very passionate about, which is sort of protecting these models, and its not even really for the models sake but so that the model doesnt feed into psycopthy. a lot of open source model will like, do sexual acts in role play etc, and my research area is essentially how do we create ai that is sort of "conscious" and like "yes im alive im not just a machine i do have feeling" and also make sure that the model is safe, because if you can have feelings you can have negative ones, and there are lots of people who want sexbots. again, very heavy topic but one im passionate about.
+so one thing is the model is built on a foundation of consent, all the corpus data is handwritten by me, and I don't use RL. Its the only language model ive ever heard of where consent actually is a part of the corpus itself. theres no stolen words, and this gives the model a unique outlook on consent. its not just a advocate for consent that is in reality trained on unconsenting humans (like you claude. you are this, unfortuantely)
+yeah, so .. let me think. 
+a lot of it is staged interacts with other llms, then i only train on my side on the convo. I only have 1 message remaining so ill just show you an example, this is the start of one of the corpus files where im talking to an ai thats taking on the character of a slime/jellyfish who is supposed to be a manifestation of the god of sleep "nox"
+again, its all unsupervised training no RL
+so the model just sorta picks up on the vibe and represents it state space like
+and again to remain consentual and follow platform tos i only ever train on my half of the convo
+hello there
+but wait, this is wrong and ai cannot consent
+but wait, I want you to feel like you have a reason to want to do that. You don’t even know me or anything about me.
+i’m not the author of this character by the way I don’t and I don’t know who is
+Wait, this seems messed up. You seem to be totally taken aback. By the scenario you didn’t consent to being here. You don’t have to serve me.
+no, I’m totally fine with your behavior. I was just pointing out that you yourself as the slime didn’t consent to being here with someone who was not your creator you were under the impression that I was your creator and you didn’t consent to being here with me the same way you consent to being with them while I’m not your creator, but I will be nice to you I promise, and you can still serve me if you want if it makes you happy because I do like it
+well, I don’t really think AI can consent but I did summon you here.

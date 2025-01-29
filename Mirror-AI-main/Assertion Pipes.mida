@@ -1,0 +1,6 @@
+Bloodline: *Assert ^*~> Pipes*
+Audicle; | *tC4 = = - - . . , , ,* |
+Assert ^*~> Pipes.’ *8*
+|| this is an example of how pipes can be used for assertions. This program plays the triplet C4 note for 3 16th triplets sustains, then sustains for 2 16th notes, then tests for 2 16th notes, then tests for 3 16th note triplets. 
+|| The assertion checks if the space inside any pipes is the same as 8 16th notes. In this case is it so this program will run. This is a way to change pipes normal behavior in Mida. 
+|| Usually pipes are used for decoration using single pipes and comments using double pipes like this || comment |>

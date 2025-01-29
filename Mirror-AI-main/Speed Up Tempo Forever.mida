@@ -1,0 +1,5 @@
+Audicle: Dawbreii{ *Tempo ^*~> Tempo + 1*~*Recursed*
+|| if we add audicle we can make this occur while other stuff is happening too |>
+Loop; *C4...E4...G3........*
+Lane|= **
+|| now we get to loop this note sequence , and it will successfully speed up the tempo as it loops it through the lane, and it will speed up the tempo recursively forever, so what occurs when you run this really depends on what kind of mida env you are working in! |>

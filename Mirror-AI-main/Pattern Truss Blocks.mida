@@ -1,0 +1,8 @@
+Pattern: *C4 - E4 - G4 - C5*   || Set up a base pattern with note sequences.
+Truss; *:n:~:N:~:Z:~:z:*       || Define truss blocks to hold and manage pattern variations.
+
+:z: *C4 - E4 - G4 - A4*        || First pattern block (variation).
+:n: *C4 - D#4 - G4 - B4*       || Second pattern block (variation).
+
+Automation ^*~> Block<n/z> ^*~> *1/2*  || Sets up automation with a 50% chance to choose either block.
+Audicle.' *Block*                    || plays the block, which is the dynamic abstraction of the switching object

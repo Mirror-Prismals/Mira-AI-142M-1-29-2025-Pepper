@@ -1,0 +1,8 @@
+another way to have an "advanced shortcut" is with the *Mira* keyword
+
+you can put *Mira* anywhere, and a language model of mira will fill in that part of the code. this works with comments so you can put instructions in comments... its kind of ridiculous
+
+Audicle: || A Calming Piano Piece |> *Mira*
+
+|| So mira will *do something* during runtime/compilation/JIT/live whatever to make this work. 
+it really depends on how the mira is trained and again there is no guarentee that this will not fail and crash the program in an absurdly spectacular way- its really kind of amazing |>

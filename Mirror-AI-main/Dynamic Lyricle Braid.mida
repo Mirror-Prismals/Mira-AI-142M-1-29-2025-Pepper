@@ -1,0 +1,7 @@
+Dynamic ^*~> Lyricle ^*~> Braid|=  
+| *!FF - !MF - !MP*~ | *Bloodline - Audicle - Derailment*~ | *C2 - E2 - G2* |
+Assert ^*~> Pipes.' *5* || Asserts that there are 5 16th notes between each set of pipes on the Audicle level |>
+Exception:-: *!Derailment* || Stops execution manually if assertion is met |>
+|| using a dynamic lyricle braid to output sung pitched timed content that has dynamic modulation. forte goes to mezzo forte goes to mezzo piano. Assertion is used to ensure that the mida is synced. |> 
+|| the ~ after each expression ensures that they trigger at the same time, not one after the other. |>
+|| if we removed the tildes they would play in sequence, not together. |>

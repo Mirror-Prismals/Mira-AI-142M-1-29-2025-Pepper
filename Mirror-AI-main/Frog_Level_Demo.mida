@@ -1,0 +1,49 @@
+
+|| define mode |>
+mida --mode compiled
+|| Open with Vocal |> 
+Braid: *. . G#4 - G#4 - G#4 - . . F#4 - E4 - F#4 - | E4 - C#4 - . . C#4 - . . B3 - A#3 - B3 - | C#4 - C#4 - . . C#4 - . . B3 - A#3 - B3 - | C#4 - G#3 - G#3 - G#3 - G#3 - E4 - . . E4 B3 | C#4 - - - B3 - E4 D#4 E4 . D#4 . E4 D#4 - F#4 | - - - . E4 - D#4 E4 . D#4 - E4 . D#4 - F#4 | - - E4 - E4 - E4 - E4 - . E4 - . E4 - | E4 - E4 - E4 - . E4 - E4 - . E4 . E4 . | E4 - C#4 -*
+
+*Braid*~*. . And - it - was - . . so - pre - dict - | a - ble - . . I - . . could - n't - get - | it - though - . . I - . . could - n't - fig - | ure - that - it - would - turn - out - . . ri i | i - - - ght - so I left . my . bed in - chains! | - - - . felt - the emp . ti - ness . all - day! | - - I - kept - my - mouth - . shut - . I - | kept - my - mouth - . shut - and~look - . where . that . | got - me! -*
+Lane; *Love*
+
+|| Set Up For Program ||>
+
+Program##!! *Intro; Intro Pt. 2; Verse; Chorus; Verse 2; Chorus 2; Outro*
+Lane; *Bass, Drums, Vocal, Keyboard*
+
+|| Intro ||>
+Dawbreii} *Program;#Intro*
+|| Intro Bass Drone |> Audicle:  *~*C#1 - - - - - - - - - - - - - - - | - - - - - - - - - - - - - - - - | C#1 - - - - - - - - - - - - - - - | - - - - - - - - - - - - - - - - | B0 - - - - - - - - - - - - - - - | - - - - - - - - - - - - - - - - | C#1 - - - - - - - - - - - - - - - | - - - - - - - - - - - - - - - - |*
+
+|| Intro Pt. 2 ||>
+Dawbreii} *Program;#Intro Pt. 2*
+|| Intro Bass Main Loop Variation 1 |> Audicle: *C#2 - - - - - - - - - - - - - - - | - - - - - - - - - - - - - - - - | F#1 - - - - - - - - - - - - - - - | - - - - - - - - - - - - - - - - | B1 - - - - - - - - - - - - - - - | - - - - - - - - - - - - - - - - | A1 - - - - - - - - - - - - - - - | G#1 - - - - - - - - - - - - - - - |*
+|| Intro Backbeat |>> 
+Braid: 
+*B B . . S . . S . B B . . . S . | B B . B S . . S . . B B S . B S | B . . . S . . S . . B B S . B S | B . B . . . S . B B B B B B B B |*~
+~*O . P . P . P . P . P . P . P . | P . P . P . P . P . P . P . O . | H . H . H . H . H . H . H . O . | P . H . H . H . H . H . H . H*
+Audicle: *. . . . . . . . . . Sqa! - . . Sqa! - | . . . . . . . . . . Motha - . . Motha - | . . . . . . . . . . Sqa! - . . Sqa! - | . . . . . . . . . . Motha . Motha . Motha . | . . . . . . . . . . Sqa! - . . Sqa! - | . . . . . . . . . . Motha . Motha . Motha . | . . . . . . . . . . Sqa! - . . Sqa! - | . . . . . . . . . . Motha . Motha . Motha . |*~*Label#1*
+|| Intro Keyboard Arp |> 
+Audicle: *C#4 - C#3 - F3 - G#3 - C#4 - C#3 - F3 - G#3 - | C#4 - C#3 - F3 - G#3 - C#4 - C#3 - F3 - G#3 - | C#4 - C#3 - F3 - G#3 - C#4 - C#3 - F3 - G#3 - | C#4 - C#3 - F3 - G#3 - C#4 - C#3 - F3 - G#3 - | B3 - B2 - D#3 - F#3 - B3 - B2 - D#3 - F#3 - | B3 - B2 - D#3 - F#3 - B3 - B2 - D#3 - F#3 - | C#4 - C#3 - F3 - G#3 - C#4 - C#3 - F3 - G#3 - | C#4 - C#3 - F3 - G#3 - C#4 - C#3 - F3 - G#3 - |*
+
+Dawbreii} *Program;#Verse*
+Audicle: *Three - - - goes . to - one - which . goes - to - | four . . . goes . to - goes . which . goes . to . | ghost - . . goes . to - doot . doot - doot . doot - | doot . doot - doot . doot - doot . doot - doot . doot - | doot - doot - doot - doot - doot - doot - doot - doot - | doot - doot - doot . doot - doot . doot - doot . doot - | doot - doot - doot . doot - doot . doot - doot . doot - | doot . doot - doot . doot - doot . doot - doot . doot .*~Braid~*G#4 - - - F#4 . E4 - F#4 - E4 . C#4 - B3 - | C#4 . . . C#4 . B3 - C#4 . E4 . C#4 . B3 . | C#4 - . . C#4 . B3 - C#4 . E4 - C#4 . B3 - | C#4 . G#3 - B3 . C4 - C#4 . E4 - C#4 . B3 - | C#4 - G#3 - B3 - C4 - C#4 - G#3 - B3 - C4 - | C#4 - G#3 - B3 . C4 - C#4 . E4 - C#4 . B3 - | C#4 - G#3 - B3 . C4 - C#4 . G#3 - B3 . C4 - | C#4 . G#3 - B3 . C4 - C#4 . E4 - C#4 . B3 .*
+Audicle: Stem; 
+*Program ^*~> ##!!Program;#Intro Pt. 2*
+*Subtrahend ^*~> Label#1* 
+
+Dawbreii} *Program;#Chorus*
+|| Keyboard Hook |> Audicle: *G#4 . . . F#4 . . . E4 . C#4 . B3 . C4 . | C#4 . . . C#4 . B3 . C#4 . E4 . C#4 . B3 . | C#4 . . . C#4 . B3 . C#4 . E4 . C#4 . B3 . | C#4 . G#3 . B3 . C4 . C#4 . E4 . C#4 . B3 . | C#4 . G#3 . B3 . C4 . C#4 . G#3 . B3 . C4 . | C#4 . G#3 . B3 . C4 . C#4 . E4 . C#4 . B3 . | C#4 . G#3 . B3 . C4 . C#4 . G#3 . B3 . C4 . | C#4 . G#3 . B3 . C4 . C#4 . E4 . C#4 . B3 .*
+
+|| Pre-Chorus Keyboard Riff |> Audicle: *C#4 . . . C#4 . B3 . C#4 . . . C#4 . B3 . | C#4 . . . C#4 . B3 . C#4 . E4 . C#4 . B3 . | C#4 . . . C#4 . B3 . C#4 . . . C#4 . B3 . | C#4 . . . C#4 . B3 . C#4 . E4 . C#4 . B3 . | F#4 F#4 . . E4 E4 . . G#4 G#4 . . E4 E4 . . | F#4 F#4 . . E4 E4 . . G#4 G#4 . . B3 B3 C4 C4 | F#4 - F#4 - E4 - E4 - G#4 - G#4 - E4 - E4 - | F#4 - F#4 - E4 - E4 - G#4 - G#4 - B3 - C4 - |*
+
+|| Chorus Open Hook |> Audicle: *C#5 C#5 G#4 G#4 B4 B4 C5 C5 C#5 C#5 G#4 G#4 B4 B4 C5 C5 | C#5 C#5 G#4 G#4 B4 B4 C5 C5 C#5 C#5 E5 E5 C#5 C#5 B4 B4 | C#5 C#5 . . C#5 C#5 B4 B4 C#5 C#5 . . C#5 C#5 B4 B4 | C#5 C#5 . . C#5 C#5 B4 B4 C#5 C#5 E5 E5 C#5 C#5 B4 B4 | C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 | C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 | C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 | C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 C#5 |*
+
+! Hacks ! *Preprocessor*
+Plug Depth; *Program ^*~> Assert.' Depth ^*~> Plug*
+Exception:-: *mida --integrate*~*safe*
+|| This code block makes sure everything that is playing music has a virtual instrument. *mida --integrate*~*safe* is what does that. 
+|| This is like using a assert exception as a upgraded betrayed confidence block, since betrayed confidence blocks usually do something INSTEAD of the main code but act BEFORE the runtime execution, we have to use ! Hacks ! to access the preprocessor since we are doing this AFTER we have already typed all the code above us. This lets us put this code down here instead of at the top, but we could just put it at the top |>
+
+Lane@ *Beux*

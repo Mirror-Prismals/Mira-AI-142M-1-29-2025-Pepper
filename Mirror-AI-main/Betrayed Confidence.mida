@@ -1,0 +1,6 @@
+Audicle: *C4~X#4~G4*
+Betrayed; *Audicle* 
+Confidence.' **
+|| Betrayed will simulate runtime before runtime, if there is a fatal crash running the audicle, it will not run the audicle, instead the confidence  will be run. 
+|| in this case, X#4 would indeed crash, so this confidence plays instead, and in this case the confidence is just ** which means nothing is played. 
+|| the key here is that we are allowed to define the smiler and confidence under the audicle, we dont have to "prepare" by putting it "above" it physically, becuase smilers work kind of like on the preprocessor stage

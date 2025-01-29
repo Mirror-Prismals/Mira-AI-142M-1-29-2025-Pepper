@@ -1,0 +1,19 @@
+mida --mode=interpreted
+
+Bloodline: *C Major ^*~> G Major* 
+
+Audicle; 
+    *C4~E4~G4* 
+    *D4~F#4~A4* 
+    *G4~B4~D5* 
+
+Assert.' *Bloodline* 
+Exception:-: *C4~E4~G4* 
+
+Dawbreii} *Tempo ^*~> 120BPM* 
+
+Chain,’ *Verb; Echo* 
+Par;~; *ReverbSize; DelayTime* 
+Arg|+ *0.6; 0.4s* 
+
+Lane|= *Program* 

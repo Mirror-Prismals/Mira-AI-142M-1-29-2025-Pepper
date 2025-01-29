@@ -1,0 +1,7 @@
+|| you have the right way of thinking, this is how it would be done |>
+Bloodline: *Audicle > C4; Audicle < C5* 
+Audicle; *C4- - -* *G4- - -* *A5- - -* *F5- - -* 
+Assert ^*~> Bloodline.' 
+Exception:-: *C4~G4~A4* 
+|| This checks if the melody stays within one octave (C4 to C5).
+|| If any note exceeds that range, the exception plays an alternate chord (C, G, A) within the range.

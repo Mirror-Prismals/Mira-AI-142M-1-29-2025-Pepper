@@ -1,0 +1,7 @@
+|| You are super close actually. all you need to do is change progression to the Roman keyword |>
+Bloodline: *Assert ^*~> Roman* 
+Audicle; | *C4~E4~G4* | *D4~F4~A4* | *G4~B4~D5* | *A4~C5~E5* |
+Assert.' *I-IV-V-I*
+Exception:-: | *C4~E4~G4* | *F4~A4~C5* | *G4~B4~D5* | *C4~E4~G4* |
+|| This checks if the progression follows I-IV-V-I (C, F, G, C). 
+|| If not, the exception block plays the correct progression.

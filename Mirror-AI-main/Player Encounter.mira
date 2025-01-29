@@ -1,0 +1,26 @@
+Event: “Player Encounter”
+^ __start__ "Initializing Event"
+^ __check__ "Check if player is near"
+^^^ __condition__ "Proximity < 10 units"  # Proximity condition to trigger the event
+
+# Define actions for different encounter stages
+^ __actions__ "Define Actions"
+^^ __engage__ "Start Combat"
+^^^ __attack__ "Perform Attack Sequence"
+^^^ __defend__ "Prepare Defense Sequence"
+^^^ __retreat__ "Fallback if health < 20%"
+^^ __dialogue__ "Initiate Dialogue"
+^^^ __greeting__ "Greet Player"
+^^^ __warn__ "Issue Warning"
+^^^ __farewell__ "End Dialogue"
+
+# Link __condition__ to __engage__ action remotely with forced scope bridge
+__check__ ^*~> __engage__  # Link proximity check to combat initiation
+__check__ ^*~> __dialogue__  # Link proximity check to initiate dialogue as alternative
+
+Event: “Player Leaves Area”
+^ __end__ "End Encounter"
+^^ __farewell__ "Goodbye Player"
+
+# Allow remote assignment to fallback to __end__ if the player leaves unexpectedly
+__retreat__ ^*~> __end__  # If retreating, end the encounter remotely

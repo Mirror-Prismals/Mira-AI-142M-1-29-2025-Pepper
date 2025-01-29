@@ -1,0 +1,9 @@
+|| Mida has several ways that lets you run code with errors and bugs in it.
+The first is the *Restore* keyword, this can be used to fix very obvious errors. It will use a language model to fix the error. example |>
+
+Audicle: *A#4- - - L#3- - -*
+*Restore*
+
+|| *Restore* is typed after and close to some questionable code. it will cause an ai language model to edit your code on the preprocessor level before compiling or executing or debugging.
+this is not meant to be used friviously, and there is no guarentee that this will even work, but you can do it.
+there is also no consistency in the way the ai solves the problem, it will just do it to the best of its ability. |>

@@ -1,0 +1,18 @@
+|| Set up rhythmic patterns using a super environment ||>
+Audicle##!! *Groove1; Groove2; Syncopate; Outro*
+
+|| Define different rhythmic patterns using the environment ||>
+Dawbreii} *Audicle;#Groove1*
+Audicle: *Kick - Snare - Kick - Snare -*
+
+Dawbreii} *Audicle;#Groove2*
+Audicle: *Kick - - Snare - Kick - Kick -*
+
+Dawbreii} *Audicle;#Syncopate*
+Audicle: *Kick - Snare . Kick . Snare . Kick*
+
+Dawbreii} *Audicle;#Outro*
+Audicle: *Kick Kick - Snare - Kick - - -*
+
+|| Sequence the whole pattern using the Lane operator ||>
+Lane|= *Audicle*

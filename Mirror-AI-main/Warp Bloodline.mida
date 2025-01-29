@@ -1,0 +1,10 @@
+Pattern: *C4 - E4 - G4 - C5 -*                
+Warp ^*~> Bloodline; *8 ^*~> 16*
+Audicle.' *Pattern* 
+
+|| Basic melody pattern in 16th-note timing. 
+|| you usually wouldnt warp mida data becuase its like warping midi, but you could.
+|| Stretches timing to double the length (16 16th notes per block). it would look like this.
+|| *C4 3- E4 3- G4 3- C5 3-* or more plainly *C4--- E4--- G4--- C5---*
+|| You dont usually indent in mida, you can- its just bad grammar, but indenting comments is fine!
+|| Plays the stretched pattern as the audicle clip isntead of the original pattern. |>

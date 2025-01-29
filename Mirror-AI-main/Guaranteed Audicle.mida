@@ -1,0 +1,13 @@
+mida --integrate --allocate --guarantee
+|| Ensures that the necessary resources are allocated and integrated. The guarantee prevents execution if these steps fail.
+
+Mirror: *1920x1080*  || Fullscreen mirror for visuals.
+
+Screen; *1080x720 ^*~> Center*  || Main window centered in the Mirror.
+
+Pane.' *480x640 ^*~> Left*~*Square*~*FF00FF*  || Left pane as a square, color Magenta.
+ *200x ^*~> 200y ##!! Pitch*  || Pane size is modulated based on pitch.
+
+Pane.' *480x640 ^*~> Right*~*Circle*~*FFFF00*  || Right pane as a circle, color Yellow.
+
+Audicle: *C4 - E4 - G4 - C5* ^*~> dac  || The melody that will be played, also controlling visual modulation.

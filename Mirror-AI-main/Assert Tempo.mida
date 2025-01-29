@@ -1,0 +1,8 @@
+|| You can do that like this. you are close with your example
+typically we dont modify tempo at this level, but we can use the Dawbreii} keyword to simulate things like tempo inside the audicle level. tempo is initally set to void which means it isnt set to anything. 
+then the assertion is set to check to see if its between 100 and 120. in this case, we didnt actually set it to anything, so the exception goes thru |>
+Dawbreii} *Tempo ^*~> Void*
+Bloodline: *Assert ^*~> Tempo*
+Audicle; *C4- - -* *D4- - -* *E4- - -* *F4- - -* 
+Assert.' *< 121*~*> 99*
+Exception:-: *C4~G4~A4* 

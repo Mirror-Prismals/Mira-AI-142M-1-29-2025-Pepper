@@ -1,0 +1,36 @@
+|| Initialize system with intro and pattern definitions
+Mida: Initialize System
+*Intro*  || Prints 'Intro' (without quotes)
+Pattern: *C4~G4*  || Set pattern for later use, does not print
+
+!Derailment!!## || enters derailment mode where Mira code is valid
+
+Cue: "Engage Process" || start of Mira block
+^ __1__ "Initiating Engagement Sequence"
+^^ __1a__ "Set Threat Level to Moderate"
+^^^ __1b__ "Alert Nearby Allies"
+^ __2__ "Run Environmental Scan"
+^^ __2a__ "Scan for Hostiles"
+^^^ __2b__ "Identify Resources Nearby"
+^^^ __2c__ "Check for Safe Zones"
+^ __3__ "Prepare Escape Route"
+^^ __3a__ "Identify Shortest Path to Exit"
+^^^ __3b__ "Check Obstacles Along Path"
+
+derailment mode allows free-form commenting and flexible assignment
+Mira is handling engagement, threat levels, scanning, and escape planning
+
+when i type this it will be the... ** || end of the Mira block, I have to comment like this again
+
+|| Resume Mida sequence after derailment
+*Main Sequence* || Prints "Main Sequence" (without quotes)
+Audicle: *E4~B3*  || Prints E4~B3 and stores its potential to be played; this "arms" it, confirming it’s ready for playback
+
+Pattern: *C4~G4*  || define pattern again as it was lost in derailment, not used explicitly here; to play it, we'd type `Audicle *Pattern*`
+
+|| Define closing sequence with outro elements
+*Outro* || Prints "Outro" (without quotes)
+Audicle: *G4~C5*  || Prints G4~C5 and "arms" it for playback
+Pattern: *F3~D3*  || redefines pattern, remains unused
+
+|| end of script

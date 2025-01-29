@@ -1,0 +1,7 @@
+|| Yes, you don’t usually work with keys in Mida since unlike abc notation you don’t explicitly use time signature and key to notate . but you totally can assert a key if you want to do that for some reason. |>
+Bloodline: *Assert ^*~> Key*
+Audicle;  *C4- - -* *D4- - -* *E4- - -* *F#4- - -* 
+Assert.’ *C Major*
+Exception:-: *C4~E4~G4* 
+|| If the phrase is out of key, this will play a C major chord (C, E, G) instead of the original sequence.
+|| we dont use assert pipes because its not necessessary to use pipes for this

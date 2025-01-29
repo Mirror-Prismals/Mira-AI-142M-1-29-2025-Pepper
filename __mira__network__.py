@@ -1,9 +1,29 @@
 from flask import Flask, request, jsonify, render_template_string
+import tkinter as tk
+from tkinter import filedialog, messagebox
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import os
 import json
 from datetime import datetime
 import uuid
+import tkinter as tk
+from tkinter import filedialog
+
+# Function to get model path
+def get_model_path():
+    root = tk.Tk()
+    root.withdraw()  # Hide the main window
+    
+    # Ask for model directory
+    model_path = filedialog.askdirectory(
+        title="Select GPT-2 Model Checkpoint Directory"
+    )
+    
+    if not model_path:
+        messagebox.showerror("Error", "Model directory not selected. Application will exit.")
+        exit()
+    
+    return model_path
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'  # Replace with a real secret key
@@ -12,9 +32,12 @@ app.secret_key = 'your_secret_key_here'  # Replace with a real secret key
 CONVERSATIONS_DIR = 'conversations'
 os.makedirs(CONVERSATIONS_DIR, exist_ok=True)
 
+# Get model path from user
+MODEL_PATH = get_model_path()
+
 # Load GPT-2 model and tokenizer
-model = GPT2LMHeadModel.from_pretrained(r"M:\")
-tokenizer = GPT2Tokenizer.from_pretrained(r"M:\")
+model = GPT2LMHeadModel.from_pretrained(MODEL_PATH)
+tokenizer = GPT2Tokenizer.from_pretrained(MODEL_PATH)
 
 def save_conversation(conversation_id, messages):
     """Save a conversation to a JSON file"""

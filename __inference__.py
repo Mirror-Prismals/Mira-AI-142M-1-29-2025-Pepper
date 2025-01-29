@@ -19,7 +19,7 @@ def navi_os():
             body {
                 margin: 0;
                 padding: 0;
-                background: #F59E0B;
+                background: #008080;
                 color: #FFFFFF;
                 font-family: 'Courier New', Courier, monospace;
                 overflow: hidden;
